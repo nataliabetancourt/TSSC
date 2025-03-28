@@ -28,9 +28,7 @@ const Navbar = () => {
       initial={{ opacity: 0, y: -10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className={`fixed top-0 left-0 right-0 z-50 py-2 md:py-4 transition-all duration-300 ${
-        scrolled ? "bg-black/90 backdrop-blur-sm shadow-lg" : "bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 py-2 md:py-4 transition-all duration-300 bg-black/80 backdrop-blur-sm shadow-lg`}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
